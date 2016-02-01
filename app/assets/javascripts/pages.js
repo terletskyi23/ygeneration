@@ -60,7 +60,7 @@ $(document).on('ready page:load', function (){
 // slogan begin ----------------------------------------------------------------
   var super_name = $('h2#super_name');
   super_name.fadeTo(4500 , 0.9);
-  super_name.fadeTo(1000 , 0.4);
+  super_name.fadeTo(1000 , 0.5);
   super_name.fadeTo(1500 , 1);
 
   var show_slogan = function() {
@@ -84,6 +84,10 @@ $(document).on('ready page:load', function (){
     });
   }
   setTimeout(show_slogan, 4200);
+
+  // $("#toggle_contacts").on('click', function(){
+  //   //some code
+  // });
 // slogan end ------------------------------------------------------------------
 
 //page-loader ???

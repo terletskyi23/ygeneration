@@ -10,16 +10,17 @@
 
 <!-- begin welcome section -->
   <section class="welcome">
-    <div class="col-md-10 text-center">
-      <div class="logo-box">
-        <div class='img-logo-box'>
-          <%= image_tag("animation-3.gif", alt: "logo") %>
+    <div class="col-md-offset-1 col-md-10 text-center col-md-offset-1">
+      <div class="logo-box row">
+        <div class='img-logo-box col-md-5'>
+          <%= image_tag("animation-3.gif", id: 'big-logo', alt: "logo", width: '88%') %>
         </div>
-        <div>
+        <div class='slogan-box col-md-7'>
           <h2 id="super_name"> Young Generation </h2>
           <h3 id="slogan"> We create the feature </h3>
         </div>
       </div>
+      <!--button id="toggle_contacts"> Contact Us </button-->
       <div class="arrow">
           <a href="JavaScript:void(0);">
             <span id="to-the-end" class="bottom"></span>

@@ -247,12 +247,39 @@ body {
 
 .logo-box{
 	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	margin-top: 4%;
+	.img-logo-box{
+		width: 40%;
+	}
+	.slogan-box{
+		margin-top: 15%;
+		float: right;
+		width: 60%;
+	}
 	#super_name{
 		opacity: 0;
+		font-size: 5rem;
+		color: #5C3551;
+		text-align: left;
 	}
 	#slogan{
 		display: none;
+		font-size: 3rem;
+		margin-left: 30rem;
+		color: #5C3551;
+		opacity: 0.85;
 	}
+}
+
+.small {
+  transform: scale(0.8, 0.8);
+  -ms-transform: scale(0.8, 0.8); /* IE 9 */
+  -webkit-transform: scale(0.8, 0.8); /* Safari and Chrome */
+  -o-transform: scale(0.8, 0.8); /* Opera */
+  -moz-transform: scale(0.8, 0.8); /* Firefox */
 }
 
 // page-loader
