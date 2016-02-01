@@ -1,0 +1,271 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, .page {
+		font-family: Arial;
+		margin: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+}
+header,
+hgroup,
+section {
+	display: block;
+	color:#000000;
+}
+a {
+	background-color: transparent;
+}
+a:active,
+a:hover {
+	outline: 0;
+}
+hr {
+	height: 0;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+img {
+	vertical-align: middle;
+	border: 0;
+}
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #eee;
+}
+p {
+	margin: 0 0 10px;
+}
+.text-center {
+	text-align: center;
+}
+ul,
+ol {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+body {
+	color: #fff;
+	min-width: 768px;
+}
+.col-condensed {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.col-condensed div[class^="col-"] {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.margin-style {
+	margin: 0 auto;
+	margin-top: 100px;
+}
+/*welcome section*/
+.welcome {
+	background: grey;
+}
+.welcome h2 {
+	padding-right: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 36px;
+	font-family: proximanova-bold;
+	line-height: 0.5;
+}
+.arrow {
+	margin-top: 100px;
+	display: block;
+	vertical-align: middle;
+}
+.arrow a {
+	display: inline-block;
+}
+.arrow a:hover .top,
+.arrow a:hover .bottom {
+	border: 2px solid #fff;
+	opacity: .6;
+}
+.arrow a:hover .top:after,
+.arrow a:hover .bottom:after {
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+}
+.arrow .top {
+	display: inline-block;
+	width: 4em;
+	height: 4em;
+	border: 2px solid #fff;
+	margin-right: 0.95em;
+}
+.arrow .top:after {
+	content: '';
+	display: inline-block;
+	margin-top: 1.4em;
+	width: 1.4em;
+	height: 1.4em;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.arrow .bottom {
+	display: inline-block;
+	width: 4em;
+	height: 4em;
+	border: 2px solid #fff;
+	margin-left: 0.75em;
+}
+.arrow .bottom:after {
+	content: '';
+	display: inline-block;
+	margin-top: 0.67em;
+	width: 1.4em;
+	height: 1.4em;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	-moz-transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg);
+}
+/*welcome section*/
+
+/*section*/
+.page-2{
+	background: blue;
+}
+/*section*/
+
+/*section*/
+.page-3{
+	background: green;
+}
+
+/*last-section*/
+.last-section {
+	font-family: proximanova;
+	background: red;
+}
+/*last-section*/
+
+.main {
+		width: 100%;
+		height: 100%;
+}
+.link {
+		text-decoration: none;
+		color: #000;
+}
+.menu-line {
+		width: 800px;
+		margin: 0 auto;
+		margin-top: 10px;
+}
+.menu__item {
+		display: inline-block;
+		margin-right: 10px;
+		font-size: 20px;
+		color: #000;
+}
+.text-block {
+		width: 800px;
+}
+.second-section {
+		margin: 0 auto;
+		margin-top: 200px;
+}
+.page-control__item {
+		cursor: pointer;
+		border: 2px solid rgb(255, 255, 255);
+		height: 5px;
+		width: 5px;
+		margin: 30px 0px;
+		background: rgb(255, 255, 255);
+}
+.page-control {
+		left: 0;
+		top:40%;
+		list-style: none;
+		position: fixed;
+		z-index: 1;
+}
+.ui-page-scrolling-control_active {
+		width: 10px;
+		height: 10px;
+		margin-left:-3px;
+		border: 2px solid #ac3697;
+		background-color: transparent;
+}
+.text-block__line {
+		display: block;
+		font-size: 1.3em;
+		line-height: 150%;
+}
+.text-block__line_code {
+		display: black;
+		color: #0271c7;
+}
+.text-block__header {
+		font-size: 35px;
+}
+/* begin scrolling styles*/
+.ui-page-scrolling-section {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+}
+.ui-page-scrolling-control {
+		cursor: pointer;
+}
+.ui-page-scrolling-main {
+		position: relative;
+		-webkit-transform-style: preserve-3d;
+		-moz-transform-style: preserve-3d;
+		transform-style : preserve-3d;
+}
+/* end scrolling styles */
+
+.logo-box{
+	display: inline-block;
+	#super_name{
+		opacity: 0;
+	}
+	#slogan{
+		display: none;
+	}
+}
+
+// page-loader
+// #page-loader {
+//   	position: fixed!important;
+//   	top: 0;
+//   	right: 0;
+//   	bottom: 0;
+//   	left: 0;
+//   	z-index: 9999;
+//   	color: #FFF;
+//   	display: none;
+//   	font: 0/0 a;
+//   	text-shadow: none;
+//   	padding: 1em 1.2em;
+// }
